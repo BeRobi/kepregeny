@@ -4,8 +4,7 @@
     border: 0;    
 }
 
-
-main{
+main {
     width: 80%;
     margin: auto;
     padding: 0.5rem;
@@ -13,58 +12,34 @@ main{
     border-radius: 50px;   
 }
 
-nav{
+nav {
     border-radius: 50px;
     margin: 2% 8% 1% 8%;
 }
 
-
-#navbarNav{
+#navbarNav {
     justify-content: center;
     font-weight: bold;
     font-size: x-large   
 }
 
-/* nav{
-    border-radius: 50px;
-    display: flex;
-    flex-direction: row;
-    flex-wrap: row wrap;
-    justify-content: space-between;
-    align-content: space-between;
-    margin: 1rem;
-    color: white;
-
-}
-
-nav ul{
-    display: flex;
-    
-}
- */
-
-
-
-section{
+section {
     display: flex;
     flex-flow: wrap;
     align-items: center;
     justify-content: center;
     align-content:center;
-    margin: 0 auto;
-    
+    margin: 0 auto;  
 }
 
-
-img{
+img {
     width: 400px;
     border-radius: 50px;
     border: solid rgb(39, 36, 36) 10px;
-    filter:grayscale(1);
-    
+    filter:grayscale(1);  
 }
 
-.bthd{
+.bthd {
     width: 650px;
  }
 
@@ -74,64 +49,74 @@ img:hover {
     padding: 5px;
     background: black;
     transition: ease-in-out .10s;
-    border-radius: 50px;
-    margin-bottom: -1px;
-    
+    border-radius: 50px;    
 }
 
 img:hover.bthd {
     filter: grayscale(0);
     /* margin: 12px; */
     padding: 5px;
-    background: black;
-    margin: -1px;
-   
+    background: black; 
 }
 
-
-article{  
+article {  
     margin: 1%;
     padding: 10px;
-
-    
 }
 
-footer{
+footer {
     margin-bottom: 1rem;
 }
-/* article{
-    text-align: justify;
-    margin: 0.5rem;
-    padding: 10px;
-    background:black;
-    flex: 0 0 200px;
-    border-radius: 60px; 
-   
-}*/
-
-/* article:nth-of-type(9)  {
-    flex-grow: 2;
-} */
-
-/* footer ul{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin: 5px;
-    list-style-type: none;
-} */
 
 form{
+    color: rgb(168, 162, 162);
     margin: auto;
-    width: 40%;
+    width: 80%;
     border-radius: 50px;
-    padding: 1rem;
-    background-color:rgb(39, 36, 36);
+    padding: 3rem;
+    background-color:rgb(54, 53, 53);
 }
 
-.form-control{
-    padding:  10rem;
-}
+   
+legend {
+    margin-top: 10px;
+  }
+  
+.flex-fieldset {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+  
+.flex-fieldset > label {
+    flex: 1 1 69%;
+  }
+  
+.flex-fieldset > input {
+    flex: 1 1 30%;
+  }
+  
+input[type="text" i],
+input[type="date" i],
+input[type="time" i],
+textarea {
+    border: 2px solid rgb(88, 79, 79);
+    border-radius: 50px;
+    padding: 15px;
+    font-size: 110%;
+  }
+
+.nem-tud {
+    display: block;
+  }
+
+button.submit {
+    font-size: large;
+    font-weight: bold;
+    padding: 15px 60px;
+    border-radius: 50px;
+    color: rgb(168, 162, 162);
+  }
 
 @media screen and (max-width: 852px) {
 
