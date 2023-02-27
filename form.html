@@ -59,43 +59,44 @@
       </header>
       <form>
         <fieldset>
-            <legend>Kívánt adatok</legend>
-            <label for="nev"></label>
-            <input id="nev" type="text" placeholder="Mi a neved?" />
-            <label for="k_nev"></label>
-            <input id="k_nev" type="text" placeholder="Mi legyen a neved?" />
+          <legend>Kívánt adatok</legend>
+          <label for="nev"></label>
+          <input id="nev" type="text" placeholder="Mi a neved?" />
+          <label for="k_nev"></label>
+          <input id="k_nev" type="text" placeholder="Mi legyen a neved?" />
         </fieldset>
         <fieldset>
-            <legend>Névrokonok</legend>
-            <div>Van névrokonság ismert személlyel vagy karakterrel?</div>
-            <input id="igen_sn" type="radio" name="kisertet" value="igen" />
-            <label for="igen_sn">Sajnos nincs!</label><br>
-            <input id="igen_szn" type="radio" name="kisertet" value="igen" />
-            <label for="igen_szn">Szerencsére nincs!</label>
-            <div class="nem_tud">
-            <input id="nem_tud" type="radio" name="kisertet" value="nemtud" />
-            <label for="nem_tud">Még nem tudok róla!</label>
-          </div>
+          <legend>Névrokonok</legend>
+          <div>Van névrokonság ismert személlyel vagy karakterrel?</div>
+          <input id="igen_sn" type="radio" name="kisertet" value="igen" />
+          <label for="igen_sn">Sajnos nincs!</label><br />
+          <input id="igen_szn" type="radio" name="kisertet" value="igen" />
+          <label for="igen_szn">Szerencsére nincs!</label><br />
+          <input id="nem_tud" type="radio" name="kisertet" value="nemtud" />
+          <label for="nem_tud">Még nem tudok róla!</label>
         </fieldset>
         <fieldset>
-            <legend>Mondd el mi tetszene!</legend>
-            <label for="mese">Írd le az összes ötletedet!</label><br>
-            <textarea name="mese" id="mese" rows="5" style="width: 100%"></textarea>
+          <legend>Mondd el mi tetszene!</legend>
+          <label for="mese">Írd le az összes ötletedet!</label><br />
+          <textarea
+            name="mese"
+            id="mese"
+            rows="5"
+            style="width: 100%"
+          ></textarea>
         </fieldset>
         <fieldset>
-            <label for="mennyire">Elégedetlenség szintje</label>
-            <input type="range" id="mennyire" name="mennyire" />
+          <label for="mennyire">Elégedetlenség szintje</label>
+          <input type="range" id="mennyire" name="mennyire" />
         </fieldset>
         <fieldset class="flex-fieldset">
-            <label for="mikor">Névadás dátuma:</label>
-            <input type="date" id="mikor" name="mikor" value="2023-02-18" />
-
+          <label for="mikor">Névadás dátuma:</label>
+          <input type="date" id="mikor" name="mikor" value="2023-02-18" />
         </fieldset>
         <div class="text-center">
-            <button class="submit btn btn-dark">Elküld!</button>
+          <button class="submit btn btn-dark">Elküld!</button>
         </div>
-    </form>
-      </div>
+      </form>
       <footer>
         <nav class="navbar navbar-expand-sm navbar-dark bg-dark">
           <button
