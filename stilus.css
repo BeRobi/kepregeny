@@ -130,7 +130,7 @@ nav a:hover:after {
   border-radius: 50px;
   font-family: var(--font-family);
   font-weight: 600;
-  font-style: bold;
+  font-weight:bold;
   font-size: 100%;
 }
 
