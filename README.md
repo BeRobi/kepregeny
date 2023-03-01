@@ -9,3 +9,5 @@ https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fberobi.github.io
 Mobilbarát weboldal:<br>
 https://search.google.com/test/mobile-friendly/result?id=t3BUFv1vl0d3EZjj4P3J2w&hl=hu
 
+Betöltési sebesség:<br>
+https://pagespeed.web.dev/report?url=https%3A%2F%2Fberobi.github.io%2Fkepregeny%2F
